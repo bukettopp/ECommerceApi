@@ -1,0 +1,11 @@
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\bin\Debug\net8.0\ETicaretApi.Domain.deps.json
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\bin\Debug\net8.0\ETicaretApi.Domain.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\bin\Debug\net8.0\ETicaretApi.Domain.pdb
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\obj\Debug\net8.0\ETicaretApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\obj\Debug\net8.0\ETicaretApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\obj\Debug\net8.0\ETicaretApi.Domain.AssemblyInfo.cs
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\obj\Debug\net8.0\ETicaretApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\obj\Debug\net8.0\ETicaretApi.Domain.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\obj\Debug\net8.0\refint\ETicaretApi.Domain.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\obj\Debug\net8.0\ETicaretApi.Domain.pdb
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Domain\obj\Debug\net8.0\ref\ETicaretApi.Domain.dll

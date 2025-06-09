@@ -1,0 +1,15 @@
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\bin\Debug\net8.0\ETicaretApi.Application.deps.json
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\bin\Debug\net8.0\ETicaretApi.Application.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\bin\Debug\net8.0\ETicaretApi.Application.pdb
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\bin\Debug\net8.0\ETicaretApi.Domain.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\bin\Debug\net8.0\ETicaretApi.Domain.pdb
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\ETicaretApi.Application.csproj.AssemblyReference.cache
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\ETicaretApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\ETicaretApi.Application.AssemblyInfoInputs.cache
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\ETicaretApi.Application.AssemblyInfo.cs
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\ETicaretApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\ETicaret.A12A8B4D.Up2Date
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\ETicaretApi.Application.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\refint\ETicaretApi.Application.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\ETicaretApi.Application.pdb
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Core\ETicaretApi.Application\obj\Debug\net8.0\ref\ETicaretApi.Application.dll

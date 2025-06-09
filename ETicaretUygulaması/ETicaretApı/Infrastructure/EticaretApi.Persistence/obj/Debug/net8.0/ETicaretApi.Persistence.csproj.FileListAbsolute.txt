@@ -1,0 +1,17 @@
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\bin\Debug\net8.0\ETicaretApi.Persistence.deps.json
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\bin\Debug\net8.0\ETicaretApi.Persistence.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\bin\Debug\net8.0\ETicaretApi.Persistence.pdb
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\bin\Debug\net8.0\ETicaretApi.Application.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\bin\Debug\net8.0\ETicaretApi.Domain.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\bin\Debug\net8.0\ETicaretApi.Application.pdb
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\bin\Debug\net8.0\ETicaretApi.Domain.pdb
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\ETicaretApi.Persistence.csproj.AssemblyReference.cache
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\ETicaretApi.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\ETicaretApi.Persistence.AssemblyInfoInputs.cache
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\ETicaretApi.Persistence.AssemblyInfo.cs
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\ETicaretApi.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\ETicaret.744042B1.Up2Date
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\ETicaretApi.Persistence.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\refint\ETicaretApi.Persistence.dll
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\ETicaretApi.Persistence.pdb
+C:\Users\Buket\OneDrive\Masaüstü\ETicaretUygulaması\ETicaretApı\Infrastructure\EticaretApi.Persistence\obj\Debug\net8.0\ref\ETicaretApi.Persistence.dll
