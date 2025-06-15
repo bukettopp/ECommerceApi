@@ -26,7 +26,7 @@ var query =  Table.AsQueryable();
             if(!tracking) query =  query.AsNoTracking();
             return query;
         } 
-
+         
 
         public async Task<T> GetByIdAsync(Guid id, bool tracking = true)
         {
