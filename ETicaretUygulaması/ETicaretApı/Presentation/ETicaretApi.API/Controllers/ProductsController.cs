@@ -1,7 +1,9 @@
 ﻿using ETicaretApi.Application.Abstraction;
 using ETicaretApi.Application.Repositories;
+using ETicaretApi.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace ETicaretApi.API.Controllers
 {
@@ -18,13 +20,20 @@ namespace ETicaretApi.API.Controllers
             _productWriteRepository = productWriteRepository;
         }
         [HttpGet]
-        public async void GetAllProducts()
+        public async Task GetAllProducts()
         {
             await _productWriteRepository.AddRangeAsync(new()
             {
-                new(){ Id=Guid.NewGuid() ,Name="Product 1",Price=100}
+                new(){ Id=Guid.NewGuid() ,Name="Product 2",Price=200}
     });
             var count = await _productWriteRepository.SaveAsync();
+        }
+
+        [HttpGet("{id}")]
+        public async Task <IActionResult> Get(Guid id)
+        {
+            Product pro = await _productReadRepository.GetByIdAsync(id);
+            return Ok(pro);
         }
     }
 }
