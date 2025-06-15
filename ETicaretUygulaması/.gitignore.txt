@@ -1,0 +1,24 @@
+# Build klasörleri
+bin/
+obj/
+
+# User ve log dosyaları
+*.user
+*.suo
+*.log
+
+# VS Code klasörü
+.vscode/
+
+# Visual Studio için
+.vs/
+
+# Diğer geçici dosyalar
+*.dbmdl
+*.pdb
+*.cache
+*.config
+*.class
+*.sqlite
+*.sqlite3
+*.DS_Store

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj",
+      "projectUniqueName": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj",
       "projectName": "ETicaretApi.Domain",
-      "projectPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj",
+      "projectPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj",
       "packagesPath": "C:\\Users\\Buket\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\obj\\",
+      "outputPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\ETicaretApi.Infrastructure.csproj": {}
+    "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\ETicaretApi.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj": {
+    "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj",
+        "projectUniqueName": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj",
         "projectName": "ETicaretApi.Application",
-        "projectPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj",
+        "projectPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj",
         "packagesPath": "C:\\Users\\Buket\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\obj\\",
+        "outputPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj": {
-                "projectPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj"
+              "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj": {
+                "projectPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj"
               }
             }
           }
@@ -54,6 +54,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -74,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj": {
+    "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj",
+        "projectUniqueName": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj",
         "projectName": "ETicaretApi.Domain",
-        "projectPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj",
+        "projectPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\ETicaretApi.Domain.csproj",
         "packagesPath": "C:\\Users\\Buket\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\obj\\",
+        "outputPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -140,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\ETicaretApi.Infrastructure.csproj": {
+    "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\ETicaretApi.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\ETicaretApi.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\ETicaretApi.Infrastructure.csproj",
         "projectName": "ETicaretApi.Infrastructure",
-        "projectPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\ETicaretApi.Infrastructure.csproj",
+        "projectPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\ETicaretApi.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Buket\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\obj\\",
+        "outputPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Infrastructure\\ETicaretApi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,8 +175,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj": {
-                "projectPath": "C:\\Users\\Buket\\OneDrive\\Masaüstü\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj"
+              "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj": {
+                "projectPath": "D:\\Github\\ECommerce\\ECommerceApi\\ETicaretUygulaması\\ETicaretApı\\Core\\ETicaretApi.Application\\ETicaretApi.Application.csproj"
               }
             }
           }
