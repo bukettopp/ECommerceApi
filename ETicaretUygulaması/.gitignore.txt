@@ -17,7 +17,6 @@ obj/
 *.dbmdl
 *.pdb
 *.cache
-*.config
 *.class
 *.sqlite
 *.sqlite3
