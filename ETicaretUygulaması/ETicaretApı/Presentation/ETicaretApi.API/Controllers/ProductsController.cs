@@ -13,27 +13,38 @@ namespace ETicaretApi.API.Controllers
     {
         private readonly IProductWriteRepository _productWriteRepository;
         private readonly IProductReadRepository _productReadRepository;
-
-        public ProductsController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository)
+        private readonly IOrderWriteRepository _orderWriteRepository;
+        private readonly ICustomerWriteRepository _customerWriteRepository;
+        public ProductsController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository, IOrderWriteRepository orderWriteRepository, ICustomerWriteRepository customerWriteRepository)
         {
             _productReadRepository = productReadRepository;
             _productWriteRepository = productWriteRepository;
+            _orderWriteRepository = orderWriteRepository;
+            _customerWriteRepository = customerWriteRepository;
         }
         [HttpGet]
-        public async Task GetAllProducts()
+        public async Task Get()
         {
-            await _productWriteRepository.AddRangeAsync(new()
+            var customerId= Guid.NewGuid();
+await _customerWriteRepository.AddAsync(new Customer()
+{
+    Name="buket",
+    Id=customerId,  
+
+});
+
+
+            await _orderWriteRepository.AddAsync(new Order()
             {
-                new(){ Id=Guid.NewGuid() ,Name="Product 2",Price=200}
-    });
-            var count = await _productWriteRepository.SaveAsync();
+                Description = "bla bla",
+                Address = "9197/2 sokak",
+                CustomerId=customerId,
+
+            });
+   
+            await _orderWriteRepository.SaveAsync();
         }
 
-        [HttpGet("{id}")]
-        public async Task <IActionResult> Get(Guid id)
-        {
-            Product pro = await _productReadRepository.GetByIdAsync(id);
-            return Ok(pro);
-        }
+       
     }
 }
