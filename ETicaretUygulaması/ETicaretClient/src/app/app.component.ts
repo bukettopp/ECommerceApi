@@ -10,7 +10,7 @@ declare var $:any
 export class AppComponent {
   title = 'ETicaretClient';
   constructor(private toastrService : CustomToastrService) {
-  toastrService.message("Merhaba","bukettoş",ToastrMessageType.Warning,ToastrPosition.BottomCenter);
+ 
 
 }
 }
