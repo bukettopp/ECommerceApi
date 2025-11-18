@@ -9,6 +9,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import {ToastrModule} from 'ngx-toastr';
 import {NgxSpinnerModule } from "ngx-spinner";
 import { BaseComponent } from './base/base.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,10 +21,12 @@ import { BaseComponent } from './base/base.component';
     AppRoutingModule,
     AdminModule,UiModule,
     ToastrModule.forRoot(),
-    NgxSpinnerModule
+    NgxSpinnerModule,
+    HttpClientModule
   ],
   providers: [
-     provideAnimationsAsync()
+    //  provideAnimationsAsync()
+    {provide: "baseUrl", useValue:"https//localhost:7131/api",multi:true}
   ],
   bootstrap: [AppComponent]
 })
