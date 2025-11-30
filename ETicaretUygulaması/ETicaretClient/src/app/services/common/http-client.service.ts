@@ -17,6 +17,15 @@ if(requestParameters.fullEndPoint) url = requestParameters.fullEndPoint
 else url= `${this.Url(requestParameters)}${id ? `/${id}`:""}`
 return this.httpClient.get<T>(url,{ headers : requestParameters.headers})
   }
+post<T>(requestParameters : Partial<RequestParameters>, body: Partial<T>){
+  let url : string = "";
+  if(requestParameters.fullEndPoint)
+    url=requestParameters.fullEndPoint;
+  else url= `${this.Url(requestParameters)}`
+     
+  this.httpClient.post<T>(url,body,{headers : requestParameters.headers});
+}
+
 }
 export class RequestParameters {
   controller? :string
