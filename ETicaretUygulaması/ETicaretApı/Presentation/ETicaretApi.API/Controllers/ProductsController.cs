@@ -1,5 +1,6 @@
 ﻿using ETicaretApi.Application.Abstraction;
 using ETicaretApi.Application.Repositories;
+using ETicaretApi.Application.ViewModels.Products;
 using ETicaretApi.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -27,6 +28,18 @@ namespace ETicaretApi.API.Controllers
             return Ok(_productReadRepository.GetAll(false));
         }
 
-       
+        [HttpPost]
+        public async Task<IActionResult> Post(VM_CreateProduct productModel)
+        {
+            await _productWriteRepository.AddAsync(new Product()
+            {
+                Name = productModel.Name,
+                CreateDate = DateTime.Now,
+                Price = productModel.Price,
+                Stock = productModel.Stock,
+            });
+            await _productWriteRepository.SaveAsync();
+            return Ok();
+        }
     }
 }

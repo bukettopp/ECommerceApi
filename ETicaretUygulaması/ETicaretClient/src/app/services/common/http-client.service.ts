@@ -7,25 +7,46 @@ import { Observable } from 'rxjs';
 export class HttpClientService {
 
   constructor(private httpClient :HttpClient,@Inject("baseUrl") private baseUrl: string) { }
+
   private Url(requestParameters:Partial<RequestParameters>) : string{
 return `${requestParameters.baseUrl ? requestParameters.baseUrl: this.baseUrl}/${requestParameters.controller}
 ${requestParameters.action ? `/${requestParameters.action}`:""}`;
   }
+
+
   get<T>(  requestParameters:Partial<RequestParameters>,id? :string ) :Observable<T>{
 let url : string ="";
 if(requestParameters.fullEndPoint) url = requestParameters.fullEndPoint
 else url= `${this.Url(requestParameters)}${id ? `/${id}`:""}`
 return this.httpClient.get<T>(url,{ headers : requestParameters.headers})
   }
-post<T>(requestParameters : Partial<RequestParameters>, body: Partial<T>){
+
+
+post<T>(requestParameters : Partial<RequestParameters>, body: Partial<T>) :Observable<T>{
   let url : string = "";
   if(requestParameters.fullEndPoint)
     url=requestParameters.fullEndPoint;
   else url= `${this.Url(requestParameters)}`
      
-  this.httpClient.post<T>(url,body,{headers : requestParameters.headers});
+ return  this.httpClient.post<T>(url,body,{headers : requestParameters.headers});
 }
 
+put<T>(requestParameters : Partial<RequestParameters>, body: Partial<T>) :Observable<T>{
+  let url : string = "";
+  if(requestParameters.fullEndPoint)
+    url=requestParameters.fullEndPoint;
+  else url= `${this.Url(requestParameters)}`
+     
+ return  this.httpClient.put<T>(url,body,{headers : requestParameters.headers});
+}
+delete<T>(requestParameters : Partial<RequestParameters>, id: string) :Observable<T>{
+  let url : string = "";
+  if(requestParameters.fullEndPoint)
+    url=requestParameters.fullEndPoint;
+  else url= `${this.Url(requestParameters)}/${id}}`;
+     
+ return  this.httpClient.delete<T>(url,{headers : requestParameters.headers});
+}
 }
 export class RequestParameters {
   controller? :string

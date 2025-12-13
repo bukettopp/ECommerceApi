@@ -25,8 +25,9 @@ namespace ETicaretApi.Persistence.Contexts
             {
                 _ = entity.State switch
                 {
-                    EntityState.Added => entity.Entity.CreateDate= DateTime.UtcNow,
-                    EntityState.Modified => entity.Entity.UpdatedDate = DateTime.UtcNow
+                    EntityState.Added => entity.Entity.CreateDate = DateTime.UtcNow,
+                    EntityState.Modified => entity.Entity.UpdatedDate = DateTime.UtcNow,
+                    _ => DateTime.UtcNow
                 };
             }
             return await base.SaveChangesAsync(cancellationToken);
